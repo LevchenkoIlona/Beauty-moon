@@ -1,0 +1,2555 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    box-shadow: 3px 15px 20px #333;
+    background-color: rgb(232, 228, 230);
+}
+.begin{
+    background-image: url("https://avatars.mds.yandex.net/get-ydo/11397567/2a0000018c7beb28df1892b552ce1386d038/diploma");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+body{
+    background-color: rgb(179, 101, 140);
+}
+.links{
+    display: flex;
+    margin-left: 160px;
+    gap: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+a:link, a:visited{
+    color: rgb(255, 205, 228);
+}
+a:hover{
+    color:rgb(244, 143, 190);
+}
+.name{
+    color: rgb(247, 209, 227);
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 100px;
+    padding-bottom: 28px;
+    padding-left: 150px;
+    padding-top: 270px;
+
+}
+.quote{
+    width: 700px;
+    color: rgb(246, 195, 220);
+    font-size: 35px;
+    font-family: Times New Roman;
+    font-style: italic;
+    padding-left: 150px;
+
+}
+.advphoto{
+    width: 250px;
+    margin-bottom: 50px;
+    padding-left: 70px;
+    margin-top: 100px;
+}
+.adv{
+    margin-top: 35px;
+    width: 425px;
+    display: inline-block;
+    position: relative;
+
+}
+.advall{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Автоматически подстраивает колонки */
+    gap: 0px; /* Отступы между элементами */
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.advname{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-bottom: 10px;
+    font-size: 43px;
+    padding-right: 40px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    text-align: center;
+}
+.advtext1{
+    margin-top: 13px;
+}
+.advtext, .advtext1{
+    width: 425px;
+    text-align: center;
+    font-size: 27px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.services{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.servphoto1{
+    width: 47%;
+    border-radius: 3px;
+    box-shadow: 3px 15px 20px #333;
+    padding-right: 0;
+}
+.hairmaker{
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 70px;
+}
+.hairmakerall{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#hairtable{
+    width: 750px;
+    table-layout: fixed;
+    line-height: 40px;
+    margin-top: 20px;
+
+}
+#hairtable .secondcol{
+  padding-left: 130px;
+
+}
+.header2, .coloring{
+    text-align: center;
+    font-weight:bold;
+
+    padding-top: 18px;
+
+}
+.hairhead{
+    text-align: center;
+    padding: 15px;
+    font-size: 33px;
+    border-bottom: 2px solid black;
+    box-shadow: 0 20px 20px -20px #333;
+}
+.button1{
+    font-size: 28px;
+    padding: 20px;
+    margin-top: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 3px 5px 20px rgb(163, 162, 162);
+    background-color: rgb(179, 101, 140);
+    /*#8c8b8b*/
+}
+.button1:hover{
+    background-color: rgb(155, 76, 116);
+}
+.button1:active{
+    background-color: rgb(204, 76, 140);
+}
+.servphoto2{
+    width: 45%;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+    height: 645px;
+    border-radius: 3px;
+    box-shadow: 3px 15px 30px #333;
+
+}
+.makeup{
+    font-size: 30px;
+    width: 580px;
+    line-height: 45px;
+    padding-left: 50px;
+}
+.makeupall{
+    position: relative;
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+}
+.makehead{
+    text-align: center;
+    padding: 15px;
+    font-size: 33px;
+    border-bottom: 2px solid black;
+    width: 700px;
+    box-shadow: 0 20px 20px -20px #333;
+}
+#maketable{
+    width: 735px;
+    padding-bottom: 20px;
+    table-layout: fixed;
+    line-height: 37px;
+    margin-top: 15px;
+}
+#maketable .secondcol{
+    padding-left: 190px;
+}
+#maketable td {
+    padding-bottom: 20px;
+}
+.manichead{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /*border-top: #333 2px dotted;
+    padding-top: 40px*/
+}
+.button2{
+    font-size: 28px;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 460px;
+    margin-top: 20px;
+    box-shadow: 3px 5px 20px rgb(163, 162, 162);
+    background-color: rgb(179, 101, 140);
+}
+.button2:hover{
+    background-color: rgb(155, 76, 116);
+}
+.button2:active{
+    background-color: rgb(204, 76, 140);
+}
+.servphoto3{
+    width: 43%;
+    margin-left: 80px;
+    border-radius: 3px;
+    box-shadow: 3px 12px 30px #333;
+}
+#manictable1{
+    width: 698px;
+}
+#manictable1 td{
+    padding-bottom: 20px;
+}
+#manictable1 .secondcol{
+    padding-left: 125px;
+}
+.firstcol{
+    width: 60%;
+}
+.manicurist1{
+
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 100px;
+    margin-left: 70px;
+    padding-top: 90px
+
+}
+.manicuristall1{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.manicuristall{
+    box-shadow: 3px 5px 20px rgb(163, 162, 162);
+    padding-bottom: 80px
+}
+.button3{
+    font-size: 28px;
+    padding: 20px;
+    margin-top: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 3px 5px 20px rgb(163, 162, 162);
+    background-color: rgb(179, 101, 140);
+}
+.button3:hover{
+    background-color: rgb(155, 76, 116);
+}
+.button3:active{
+    background-color: rgb(204, 76, 140);
+}
+.servphoto4{
+    width: 43%;
+    height: 800px;
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+    box-shadow: 3px 12px 30px #333;
+    margin-right: 75px;
+}
+#manictable2{
+    width: 693px;
+}
+#manictable2 td{
+    padding-bottom: 10px;
+}
+#manictable2 .secondcol{
+    padding-left: 125px;
+}
+.manicurist2{
+    width: 640px;
+    font-size: 28px;
+    margin-left: 80px;
+    line-height: 40px;
+
+}
+.manicuristall2{
+    display: flex;
+    align-items: center;
+}
+.manictable1 td {
+    padding-bottom: 20px;
+}
+.header3{
+    font-weight:bold;
+    text-align: center;
+    border-bottom: 3px dotted black ;
+    padding-top: 18px;
+}
+.header4{
+    border-bottom: 3px solid black;
+    text-align: center;
+    font-weight:bold;
+    padding-top: 18px;
+}
+.button4{
+    font-size: 28px;
+    padding: 20px;
+    margin-top: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 3px 5px 20px rgb(163, 162, 162);
+    background-color: rgb(179, 101, 140);
+}
+.button4:hover{
+    background-color: rgb(155, 76, 116);
+}
+.button4:active{
+    background-color: rgb(204, 76, 140);
+}
+.galery{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.img1{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.img2{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.img3{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.img4{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.img5{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.img6{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.img7{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.img8{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.headhairandmake{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.photo1-2{
+    margin-left: 100px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 20px #333;
+    padding: 20px;
+    margin-top: 10px;
+}
+.hair{
+    font-size: 40px;
+    border-bottom: 3px solid black;
+    margin-left: 280px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 20px 20px -20px #333;
+}
+.make{
+    font-size: 40px;
+    border-bottom: 3px solid black;
+    margin-right: 290px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 20px 20px -20px #333;
+}
+.photo1-4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.photo3-4{
+    margin-right: 100px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 20px #333;
+    padding: 20px;
+    margin-top: 10px;
+}
+.headmanicandpediure{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.manic{
+    font-size: 40px;
+    border-bottom: 3px solid black;
+    margin-left: 260px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 20px 20px -20px #333;
+    margin-top: 80px;
+}
+.pediure{
+    font-size: 40px;
+    border-bottom: 3px solid black;
+    margin-right: 235px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 20px 20px -20px #333;
+    margin-top: 80px;
+}
+.photo5-6{
+    padding-top: 40px;
+    margin-left: 100px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 20px #333;
+    padding: 20px;
+    margin-top: 10px;
+}
+.photo7-8{
+    margin-right: 100px;
+    padding-top: 40px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 20px #333;
+    padding: 20px;
+    margin-top: 10px;
+}
+.photo5-8{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 130px;      
+}
+.information{
+    font-size: 28px;
+    line-height: 40px;
+    width: 50%; 
+    text-align: center;
+
+}
+.vertical-line{
+    border-left: 1px solid #000; 
+    height: 550px; 
+    margin: 0px;  
+}
+.form-container{
+    width: 50%;                 
+    display: flex;             
+    justify-content: center;
+}
+form{
+    font-size: 28px;
+    line-height: 40px;
+    width: 60%;                  
+    box-sizing: border-box;      
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    padding: 15px 0 10px;
+    outline: none;
+    border-bottom: 1px solid #585858;
+    color:rgb(35, 35, 35);
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.buttonend{
+    font-size: 25px;
+    padding: 18px;
+    margin-top: 28px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 3px 5px 20px rgb(163, 162, 162);
+    background-color: rgb(179, 101, 140);
+    float: right;
+}
+.buttonend:hover{
+    background-color: rgb(155, 76, 116);
+}
+.buttonend:active{
+    background-color: rgb(204, 76, 140);
+}
+#contact{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold
+}
+#contact2{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+@media (max-width: 1500px){
+    .links{
+        margin-left: 105px;
+        font-size: 28px;
+        gap: 25px;
+    }
+    .name{
+        font-size: 75px;
+        padding-left: 110px;
+    }
+    .quote{
+        font-size: 30px;
+        width: 550px;
+        padding-left: 110px;
+    }
+    .advname{
+        font-size: 33px;
+        padding-right: 140px;
+    }
+    .advall{
+        margin-right: 50px;
+
+    }
+    .advphoto{
+        width: 180px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+    .advtext{
+        font-size: 20px;
+        width: 300px;
+    }
+    .advtext1{
+        font-size: 23px;
+        margin-top: 10px;
+        width: 350px;
+    }
+    .services{
+        font-size: 50px;
+    }
+    .hairmaker{
+        font-size: 23px;
+        display: inline-block;
+        margin-left: 40px;
+    }
+    #hairtable{
+        width: 510px;
+        table-layout: fixed;
+        line-height: 28px;
+        margin-top: 5px;
+    }
+    .servphoto1{
+        width: 45%;
+        margin-right: 0;
+    }
+    #hairtable .secondcol{
+        padding-left: 60px;
+      
+    }
+    .hairhead{
+        font-size: 25px;
+        width: 75%; /* Установите желаемую ширину */
+        margin: 0 30px;
+    }
+    .button1{
+        font-size: 23px;
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .hairmakerall{
+        margin-left: 45px;
+    }
+    .header2, .coloring{
+        padding-right: 65px;
+        padding-top: 15px;
+    }
+    .servphoto2{
+        width: 45%;
+        height: 450px;
+        margin-right: 43px;
+    }
+    .makehead{
+        font-size: 25px;
+        width: 79%; /* Установите желаемую ширину */
+        padding: 0;
+    }
+    #maketable{
+        width: 570px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+    .makeup{
+        font-size: 23px;
+        padding-left: 44px;
+    }
+    #maketable .secondcol{
+        padding-left: 120px;
+        width: 50px;
+    }
+    #maketable td {
+        padding-bottom: 7px;
+    }
+    .button2{
+        font-size: 23px;
+        margin-top: 0px;
+        padding: 15px;
+        margin-left: 0;
+    }
+    .manichead{
+        font-size: 40px;
+        margin-bottom: 0px;
+        padding-top: 60px;
+    }
+    .manicurist1{
+        font-size: 23px;
+        line-height: 30px;
+        margin-left: 40px;
+    }
+    #manictable1{
+        width: 485px;
+    }
+    #manictable1 td{
+        padding-bottom: 10px;
+    }
+    #manictable1 .secondcol{
+        padding-left: 70px;
+    }
+    .manicuristall1{
+        margin-bottom: 0px;
+    }
+    .firstcol{
+        width: 70%;
+    }
+    .servphoto3{
+        width: 43%;
+        margin-left: 45px;
+    }
+    .button3{
+        font-size: 23px;
+        padding: 13px;
+        margin-top: 7px;
+    }
+    .servphoto4{
+        width: 45%;
+        height: 600px;
+        margin-right: 56px;
+        margin-top: 20px;
+    }
+    #manictable2{
+        width: 503px;
+        padding-right: 0px;
+    }
+    #manictable2 td{
+        padding-bottom: 5px;
+    }
+    #manictable2 .secondcol{
+        padding-left: 90px;
+    }
+    #manictable2 .firstcol{
+        width: 57%;
+    }
+    .manicurist2{
+        width: 470px;
+        font-size: 23px;
+        margin-left: 50px;
+        line-height: 28px;
+    }
+    .header3{
+        padding-top: 3px;
+    }
+    .button4{
+        font-size: 23px;
+        padding: 13px;
+        margin-top: 10px;
+    }
+    .galery{
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+    .photo1-2{
+        margin-left: 100px;
+        border-radius: 3px;
+        box-shadow: 0px 5px 20px #333;
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .hair{
+        font-size: 30px;
+        margin-left: 205px;
+    }
+    .make{
+        font-size: 30px;
+        margin-right: 205px;
+    }
+    .img1{
+        width: 190px;
+        height: 390px;
+        margin-right: 10px;
+    }
+    .img2{
+        width: 190px;
+        height: 390px;
+    }
+    .img3{
+        width: 190px;
+        height: 390px;
+    }
+    .manic{
+        font-size: 30px;
+        margin-left: 185px;
+    }
+    .pediure{
+        font-size: 30px;
+        margin-right: 165px;
+    }
+    .img4{
+        width: 190px;
+        height: 390px;
+        margin-left: 10px;
+    }
+    .img5{
+        width: 190px;
+        height: 390px;
+        margin-right: 10px;
+    }
+    .img6{
+        width: 190px;
+        height: 390px;
+    }
+    .img7{
+        width: 190px;
+        height: 390px;
+    }
+    .img8{
+        width: 190px;
+        height: 390px;
+        margin-left: 10px;
+    }
+    .information{
+        font-size: 23px;
+        line-height: 30px; 
+    }
+    form{
+        font-size: 23px;
+        width: 80%;
+        line-height: 25px;
+    }
+    .form-group input, .form-group textarea{
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .buttonend{
+        font-size: 23px;
+        padding: 15px;
+    }
+    #contact, #contact2{
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 1350px){
+    .links{
+        margin-left: 80px;
+        font-size: 25px;
+        gap: 25px;
+    }
+    .name{
+        font-size: 55px;
+        padding-left: 90px;
+    }
+    .quote{
+        font-size: 25px;
+        width: 480px;
+        padding-left: 90px;
+    }
+    .advname{
+        font-size: 30px;
+        padding-right: 100px;
+    }
+    .advall{
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+    .advphoto{
+        width: 150px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+    .advtext{
+        font-size: 18px;
+        width: 280px;
+    }
+    .advtext1{
+        font-size: 18px;
+        margin-top: 10px;
+        width: 280px;
+    }
+    .services{
+        font-size: 40px;
+    }
+    .hairmaker{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    #hairtable{
+        width: 430px;
+        table-layout: fixed;
+        line-height: 25px;
+        margin-top: 5px;
+    }
+    .servphoto1{
+        width: 48%;
+        margin-right: 0;
+    }
+    #hairtable .secondcol{
+        padding-left: 50px;
+    }
+    .hairhead{
+        font-size: 23px;
+        width: 75%;
+        margin: 0 30px;
+    }
+    .button1{
+        font-size: 20px;
+        margin-top: 15px;
+        padding: 13px;
+    }
+    .hairmakerall{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .header2, .coloring{
+        padding-right: 20px;
+        padding-top: 5px;
+    }
+    .servphoto2{
+        width: 45%;
+        height: 400px;
+        margin-right: 24px;
+    }
+    .makehead{
+        font-size: 23px;
+        width: 72%;
+        padding: 0;
+    }
+    #maketable{
+        width: 450px;
+        line-height: 25px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+    .makeup{
+        font-size: 20px;
+        padding-left: 44px;
+    }
+    #maketable .secondcol{
+        padding-left: 120px;
+        width: 50px;
+        margin-bottom: 5px;
+    }
+    #maketable td {
+        padding-bottom: 7px;
+    }
+    .button2{
+        font-size: 20px;
+        margin-top: 0px;
+        padding: 13px;
+        margin-left: 0;
+    }
+    .manichead{
+        font-size: 40px;
+        margin-bottom: 0px;
+        padding-top: 60px;
+        margin-top: 70px;
+    }
+    .manicurist1{
+        font-size: 20px;
+        line-height: 26px;
+        margin-left: 25px;
+        padding-bottom: 80px;
+        padding-top: 70px;
+    }
+    #manictable1{
+        width: 405px;
+    }
+    #manictable1 td{
+        padding-bottom: 10px;
+    }
+    #manictable1 .secondcol{
+        padding-left: 40px;
+    }
+    .firstcol{
+        width: 75%;
+    }
+    .servphoto3{
+        width: 44%;
+        margin-left: 50px;
+    }
+    .button3{
+        font-size: 20px;
+        padding: 13px;
+        margin-top: 7px;
+    }
+    .servphoto4{
+        width: 43%;
+        height: 500px;
+        margin-right: 45px;
+        margin-top: 20px;
+    }
+    #manictable2{
+        width: 413px;
+        padding-right: 0px;
+    }
+    #manictable2 td{
+        padding-bottom: 5px;
+    }
+    #manictable2 .secondcol{
+        padding-left: 90px;
+    }
+    #manictable2 .firstcol{
+        width: 57%;
+    }
+    .manicurist2{
+        width: 470px;
+        font-size: 20px;
+        margin-left: 50px;
+        line-height: 23px;
+    }
+    .header3{
+        padding-top: 3px;
+    }
+    .button4{
+        font-size: 20px;
+        padding: 13px;
+        margin-top: 10px;
+    }
+    .galery{
+        font-size: 40px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .photo1-2{
+        margin-left: 60px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .hair{
+        font-size: 28px;
+        margin-left: 185px;
+    }
+    .make{
+        font-size: 28px;
+        margin-right: 205px;
+    }
+    .img1{
+        width: 180px;
+        height: 350px;
+        margin-right: 3px;
+    }
+    .img2{
+        width: 180px;
+        height: 350px;
+    }
+    .img3{
+        width: 180px;
+        height: 350px;
+    }
+    .photo3-4{
+        padding: 10px;
+        margin-right: 60px;
+    }
+    .manic{
+        font-size: 28px;
+        margin-left: 135px;
+    }
+    .pediure{
+        font-size: 28px;
+        margin-right: 115px;
+    }
+    .img4{
+        width: 180px;
+        height: 350px;
+        margin-left: 3px;
+    }
+    .img5{
+        width: 180px;
+        height: 350px;
+        margin-right: 3px;
+    }
+    .img6{
+        width: 180px;
+        height: 350px;
+    }
+    .img7{
+        width: 180px;
+        height: 350px;
+    }
+    .img8{
+        width: 180px;
+        height: 350px;
+        margin-left: 3px;
+    }
+    .photo5-6{
+        padding: 10px;
+        margin-left: 60px;
+    }
+    .photo7-8{
+        margin-right: 60px;
+        padding: 10px;
+    }
+    .information{
+        font-size: 20px;
+        line-height: 30px; 
+    }
+    form{
+        font-size: 20px;
+        width: 80%;
+        line-height: 25px;
+    }
+    .form-group input, .form-group textarea{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .buttonend{
+        font-size: 20px;
+        padding: 15px;
+    }
+    #contact, #contact2{
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+
+}
+@media(max-width: 1150px){
+    .begin{
+        height: 600px;
+    }
+    .links{
+        margin-left: 40px;
+        font-size: 20px;
+        gap: 25px;
+    }
+    .name{
+        font-size: 50px;
+        padding-left: 40px;
+        padding-top: 200px;
+    }
+    .quote{
+        font-size: 20px;
+        width: 380px;
+        padding-left: 40px;
+    }
+    .advname{
+        font-size: 25px;
+        padding-right: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .advall{
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+    }
+    .adv{
+        text-align: center;
+        width: 300px;
+    }
+    .advphoto{
+        width: 100px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+        padding-left: 0px;
+    }
+    .advtext1{
+        font-size: 17px;
+        width: 185px;
+        padding-left: 50px;
+    }
+    .advtext{
+        font-size: 17px;
+        width: 200px;
+        padding-left: 45px;
+    }
+    .services{
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .servphoto1{
+        width: 45%
+    }
+    .hairmaker{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .hairhead{
+        font-size: 20px;
+        padding-bottom: 7px;
+        width: 68%;
+    }
+    #hairtable{
+        width: 390px;
+        line-height: 23px;
+    }
+    #hairtable .secondcol{
+        padding-left: 25px;
+    }
+    .hairmakerall{
+        margin-left: 7px;
+    }
+    .header2, .coloring{
+        padding-top: 0px;
+        padding-right: 40px;
+    }
+    .button1{
+        padding: 10px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .servphoto2{
+        width: 51.5%;
+        height: 330px;
+        margin-right: 4px;
+    }
+    .makehead{
+        font-size: 20px;
+        padding-bottom: 0px;
+        width: 53%;
+        margin-bottom: 15px;
+    }
+    .makeup{
+        font-size: 18px;
+        padding-left: 13px;
+    }
+    .makeupall{
+        margin-top: 50px;
+    }
+    #maketable{
+        width: 350px;
+        line-height: 22px;
+    }
+    #maketable .secondcol{
+        padding-left: 70px;
+    }
+    #maketable td {
+        padding-bottom: 7px;
+    }
+    .header2{
+        padding-right: 48px;
+    }
+    .button2{
+        padding: 10px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .manichead{
+        padding-top: 30px;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .manicurist1{
+        padding-top: 65px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    .servphoto3{
+        margin-left: 5px;
+        width: 45%;
+    }
+    #manictable1{
+        width: 350px;
+        line-height: 22px;
+    }
+    #manictable1 td{
+        padding-bottom: 10px;
+    }
+    #manictable1 .secondcol{
+        padding-left: 15px;
+    }
+    .firstcol{
+        width: 80%;
+    }
+    .button3{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .servphoto4{
+        width: 51%;
+        height: 400px;
+        margin-right: 5px;
+        margin-top: 0px;
+    }
+    #manictable2{
+        width: 310px;
+        padding-right: 0px;
+    }
+    #manictable2 td{
+        padding-bottom: 5px;
+    }
+    #manictable2 .secondcol{
+        padding-left: 20px;
+    }
+    #manictable2 .firstcol{
+        width: 70%;
+    }
+    .manicurist2{
+        width: 470px;
+        font-size: 18px;
+        margin-left: 7px;
+        line-height: 22px;
+    }
+    .header3, .header4{
+        padding-top: 0px;
+    }
+    .button4{
+        font-size: 18px;
+        padding: 10px;
+        margin-top: 7px;
+    }
+    .galery{
+        font-size: 35px;
+        margin-top: 70px;
+        margin-bottom: 60px;
+    }
+    .photo1-2{
+        margin-left: 20px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .hair{
+        font-size: 23px;
+        margin-left: 90px;
+    }
+    .make{
+        font-size: 23px;
+        margin-right: 90px;
+    }
+    .img1{
+        width: 150px;
+        height: 300px;
+        margin-right: 3px;
+    }
+    .img2{
+        width: 150px;
+        height: 300px;
+    }
+    .img3{
+        width: 150px;
+        height: 300px;
+    }
+    .photo3-4{
+        padding: 5px;
+        margin-right: 20px;
+    }
+    .manic{
+        font-size: 23px;
+        margin-left: 75px;
+    }
+    .pediure{
+        font-size: 23px;
+        margin-right: 65px;
+    }
+    .img4{
+        width: 150px;
+        height: 300px;
+        margin-left: 3px;
+    }
+    .img5{
+        width: 150px;
+        height: 300px;
+        margin-right: 3px;
+    }
+    .img6{
+        width: 150px;
+        height: 300px;
+    }
+    .img7{
+        width: 150px;
+        height: 300px;
+    }
+    .img8{
+        width: 150px;
+        height: 300px;
+        margin-left: 3px;
+    }
+    .photo5-6{
+        padding: 5px;
+        margin-left: 20px;
+    }
+    .photo7-8{
+        margin-right: 20px;
+        padding: 5px;
+    }
+    .information{
+        font-size: 18px;
+        line-height: 28px; 
+    }
+    form{
+        font-size: 18px;
+        width: 75%;
+        line-height: 25px;
+    }
+    .form-group input, .form-group textarea{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .buttonend{
+        font-size: 18px;
+        padding: 10px;
+    }
+    #contact, #contact2{
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+}
+    @media (max-width: 1000px){
+        .advtext1{
+            padding-left: 30px;
+        }
+        .advtext{
+            padding-left: 20px;
+        }
+    }
+    @media (max-width: 860px){
+    .links{
+        margin-left: 30px;
+        font-size: 20px;
+        gap: 15px;
+    }
+    .name{
+        font-size: 45px;
+        padding-left: 30px;
+    }
+    .quote{
+        font-size: 20px;
+        width: 350px;
+        padding-left: 30px;
+    }
+    .advname{
+        font-size: 21px;
+        padding-right: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .advall{
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+    }
+    .adv{
+        text-align: center;
+        width: 200px;
+    }
+    .advphoto{
+        width: 80px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+        padding-left: 0px;
+    }
+    .advtext1{
+        font-size: 16px;
+        width: 160px;
+        padding-left: 5px;
+    }
+    .advtext{
+        font-size: 16px;
+        width: 160px;
+    }
+    .services{
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+    .servphoto1{
+        width: 45%
+    }
+    .hairmaker{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .hairhead{
+        font-size: 18px;
+        padding-bottom: 3px;
+        width: 62%;
+    }
+    #hairtable{
+        width: 300px;
+        line-height: 20px;
+    }
+    #hairtable .secondcol{
+        padding-left: 20px;
+    }
+    .hairmakerall{
+        margin-left: 7px;
+    }
+    .header2, .coloring{
+        padding-top: 0px;
+        padding-right: 27px;
+    }
+    .button1{
+        padding: 7px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .servphoto2{
+        width: 47%;
+        height: 280px;
+        margin-right: 37px;
+    }
+    .makehead{
+        font-size: 18px;
+        width: 52%;
+        margin-bottom: 0px;
+        height: 39px;
+    }
+    .makeup{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .makeupall{
+        margin-top: 50px;
+    }
+    #maketable{
+        width: 290px;
+        line-height: 20px;
+    }
+    #maketable .secondcol{
+        padding-left: 70px;
+    }
+    #maketable td {
+        padding-bottom: 5px;
+    }
+    .header2{
+        padding-right: 20px;
+    }
+    .button2{
+        padding: 7px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .manichead{
+        padding-top: 30px;
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .manicurist1{
+        padding-top: 70px;
+        margin-left: 10px;
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    .servphoto3{
+        margin-left: 3px;
+        width: 45%;
+    }
+    #manictable1{
+        width: 450px;
+        line-height: 20px;
+        table-layout: fixed;
+    }
+    #manictable1 td{
+        padding-bottom: 5px;
+    }
+    #manictable1 .secondcol{
+        padding-left: 20px;
+    }
+    .header4 {
+        position: relative;
+        border-bottom: none;
+        padding-right: 140px;
+    }
+    .header4::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 33%;
+        transform: translateX(-50%);
+        width: 55%; 
+        height: 2px;
+        background-color: black;
+    }
+    .firstcol{
+        width: 200px;
+    }
+    .manicuristall1{
+        display: flex;
+        align-items: center;
+    }
+    .button3{
+        font-size: 16px;
+        padding: 7px;
+    }
+    .servphoto4{
+        width: 47%;
+        height: 350px;
+        margin-right: 40px;
+        margin-top: 0px;
+    }
+    #manictable2{
+        width: 275px;
+        padding-right: 0px;
+    }
+    #manictable2 td{
+        padding-bottom: 3px;
+    }
+    #manictable2 .secondcol{
+        padding-left: 14px;
+    }
+    #manictable2 .firstcol{
+        width: 70%;
+    }
+    .manicurist2{
+        width: 470px;
+        font-size: 16px;
+        margin-left: 3px;
+        line-height: 20px;
+    }
+    #manictable2 .header4{
+        padding-right: 0px;
+    }
+    #manictable2 .header4::after{
+        content: '';
+        position: absolute;
+        bottom: 0; /* Размещаем границу внизу */
+        left: 50%; /* Центрирование границы */
+        transform: translateX(-50%); /* Центрирование границы */
+        width: 80%; /* Задаем длину границы (например, 50% от ширины элемента) */
+        height: 2px; /* Толщина границы */
+        background-color: black; /* Цвет границы */
+    }
+    .header3, .header4{
+        padding-top: 0px;
+        font-size: 17px;
+    }
+    .button4{
+        font-size: 17px;
+        padding: 7px;
+        margin-top: 7px;
+    }
+    .galery{
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .photo1-2{
+        margin-left: 5px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .hair{
+        font-size: 20px;
+        margin-left: 60px;
+    }
+    .make{
+        font-size: 20px;
+        margin-right: 60px;
+    }
+    .img1{
+        width: 120px;
+        height: 230px;
+        margin-right: 1px;
+    }
+    .img2{
+        width: 120px;
+        height: 230px;
+    }
+    .img3{
+        width: 120px;
+        height: 230px;
+    }
+    .img4{
+        width: 120px;
+        height: 230px;
+    }
+    .photo3-4{
+        padding: 5px;
+        margin-right: 5px;
+    }
+    .manic{
+        font-size: 20px;
+        margin-left: 45px;
+    }
+    .pediure{
+        font-size: 20px;
+        margin-right: 35px;
+    }
+    .img5{
+        width: 120px;
+        height: 230px;
+        margin-right: 1px;
+    }
+    .img6{
+        width: 120px;
+        height: 230px;
+    }
+    .img7{
+        width: 120px;
+        height: 230px;
+    }
+    .img8{
+        width: 120px;
+        height: 230px;
+        margin-left: 1px;
+    }
+    .photo5-6{
+        padding: 5px;
+        margin-left: 5px;
+    }
+    .photo7-8{
+        margin-right: 5px;
+        padding: 5px;
+    }
+    .information{
+        font-size: 17px;
+        line-height: 23px; 
+    }
+    form{
+        font-size: 17px;
+        width: 75%;
+        line-height: 23px;
+    }
+    .form-group input, .form-group textarea{
+        font-size: 17px;
+        margin-bottom: 3px;
+        padding: 7px 0px;
+    }
+    .buttonend{
+        font-size: 17px;
+        padding: 7px;
+    }
+    #contact, #contact2{
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 700px){
+    .container{
+        width: 90%;
+    }
+    .links{
+        margin-left: 20px;
+        font-size: 18px;
+        gap: 10px;
+    }
+    .name{
+        font-size: 45px;
+        padding-left: 30px;
+    }
+    .quote{
+        font-size: 20px;
+        width: 300px;
+        padding-left: 30px;
+    }
+    .advname{
+        font-size: 20px;
+        padding-right: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .advall{
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+    }
+    .adv{
+        text-align: center;
+        width: 200px;
+    }
+    .advphoto{
+        width: 80px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+        padding-left: 0px;
+    }
+    .advtext1{
+        font-size: 15px;
+        width: 130px;
+        padding-left: 5px;
+    }
+    .advtext{
+        font-size: 15px;
+        width: 140px;
+    }
+    .services{
+        font-size: 28px;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+    .servphoto1{
+        width: 47%
+    }
+    .hairmaker{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .hairhead{
+        font-size: 17px;
+        padding-bottom: 3px;
+        width: 70%;
+        margin-left: 10px;
+    }
+    #hairtable{
+        width: 255px;
+        line-height: 18px;
+    }
+    #hairtable .secondcol{
+        padding-left: 20px;
+    }
+    .hairmakerall{
+        margin-left: 3px;
+        margin-bottom: 0px;
+    }
+    .coloring{
+        padding-top: 0px;
+        padding-right: 25px;
+    }
+    #hairtable .header2{
+        padding-top: 0px;
+        padding-left: 3px;
+    }
+    .button1{
+        padding: 5px;
+        font-size: 16px;
+        margin-top: 7px;
+    }
+    .servphoto2{
+        width: 40%;
+        height: 220px;
+        margin-right: 70px;
+    }
+    .makehead{
+        font-size: 17px;
+        width: 46%;
+        margin-bottom: 0px;
+        height: 35px;
+    }
+    .makeup{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .makeupall{
+        margin-top: 50px;
+    }
+    #maketable{
+        width: 255px;
+        line-height: 20px;
+        padding-bottom: 0px;
+    }
+    #maketable .secondcol{
+        padding-left: 30px;
+    }
+    #maketable td {
+        padding-bottom: 0px;
+    }
+    #maketable .header2{
+        padding-right: 60px;
+    }
+    .button2{
+        padding: 5px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .manichead{
+        padding-top: 30px;
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+    .manicurist1{
+        padding-top: 70px;
+        margin-left: 10px;
+        font-size: 16px;
+        padding-bottom: 40px;
+    }
+    .servphoto3{
+        margin-left: 3px;
+        width: 45%;
+    }
+    #manictable1{
+        width: 340px;
+        line-height: 18px;
+        table-layout: fixed;
+    }
+    #manictable1 td{
+        padding-bottom: 4px;
+    }
+    #manictable1 .secondcol{
+        padding-left: 10px;
+    }
+    .header4 {
+        position: relative;
+        border-bottom: none;
+        padding-right: 120px;
+    }
+    .header4::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 33%;
+        transform: translateX(-50%);
+        width: 55%;
+        height: 2px;
+        background-color: black;
+    }
+    .button3{
+        font-size: 16px;
+        padding: 5px;
+        margin-top: 3px;
+    }
+    .servphoto4{
+        width: 40%;
+        height: 300px;
+        margin-right: 80px;
+        margin-top: 0px;
+    }
+    #manictable2{
+        width: 260px;
+    }
+    #manictable2 td{
+        padding-bottom: 0px;
+    }
+    #manictable2 .secondcol{
+        padding-left: 10px;
+    }
+    #manictable2 .firstcol{
+        width: 65%;
+    }
+    .manicurist2{
+        width: 470px;
+        font-size: 16px;
+        margin-left: 3px;
+        line-height: 18px;
+    }
+    .header3, .header4{
+        padding-top: 0px;
+        font-size: 17px;
+    }
+    .button4{
+        font-size: 16px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .galery{
+        font-size: 28px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .photo1-2{
+        margin-left: 5px;
+        padding: 3px;
+        margin-top: 5px;
+    }
+    .hair{
+        font-size: 18px;
+        margin-left: 45px;
+    }
+    .make{
+        font-size: 18px;
+        margin-right: 45px;
+    }
+    .img1{
+        width: 100px;
+        height: 210px;
+        padding-right: 1px;
+        margin-right: 0px;
+    }
+    .img2{
+        width: 100px;
+        height: 210px;
+    }
+    .img3{
+        width: 100px;
+        height: 210px;
+        padding-right: 1px;
+    }
+    .img4{
+        width: 100px;
+        height: 210px;
+        margin-left: 0px;
+    }
+    .photo3-4{
+        padding: 3px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    .manic{
+        font-size: 18px;
+        margin-left: 33px;
+    }
+    .pediure{
+        font-size: 18px;
+        margin-right: 23px;
+    }
+    .img5{
+        width: 100px;
+        height: 210px;
+        padding-right: 1px;
+        margin-right: 0px;
+    }
+    .img6{
+        width: 100px;
+        height: 210px;
+    }
+    .img7{
+        width: 100px;
+        height: 210px;
+        padding-right: 1px;
+        margin-right: 0px;
+    }
+    .img8{
+        width: 100px;
+        height: 210px;
+    }
+    .photo5-6{
+        padding: 3px;
+        margin-left: 5px;
+    }
+    .photo7-8{
+        margin-right: 5px;
+        padding: 3px;
+    }
+    .information{
+        font-size: 16px;
+        line-height: 23px; 
+    }
+    form{
+        font-size: 16px;
+        width: 75%;
+        line-height: 23px;
+    }
+    .form-group input, .form-group textarea{
+        font-size: 16px;
+        margin-bottom: 3px;
+        padding: 7px 0px;
+    }
+    .buttonend{
+        font-size: 16px;
+        padding: 7px;
+        margin-top: 7px;
+    }
+    #contact, #contact2{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 500px){
+    .begin{
+        height: 500px;
+    }
+    .container{
+        width: 100%;
+    }
+    .links{
+        margin-left: 5px;
+        font-size: 16px;
+        gap: 10px;
+    }
+    .name{
+        font-size: 40px;
+        padding-left: 30px;
+        padding-top: 160px;
+    }
+    .quote{
+        font-size: 20px;
+        width: 190px;
+        padding-left: 30px;
+    }
+    .advtext1{
+        font-size: 15px;
+        width: 140px;
+        padding-left: 5px;
+    }
+    .advtext{
+        font-size: 15px;
+        width: 140px;
+    }
+    .services{
+        font-size: 26px;
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+    .servphoto1{
+        width: 45%
+    }
+    .hairmaker{
+        font-size: 16px;
+        margin-left: 7px;
+    }
+    .hairhead{
+        font-size: 17px;
+        padding-bottom: 3px;
+        width: 70%;
+        margin-left: 10px;
+    }
+    #hairtable{
+        width: 255px;
+        line-height: 18px;
+    }
+    .servphoto2{
+        width: 52%;
+        height: 220px;
+        margin-right: 4px;
+    }
+    #maketable{
+        width: 265px;
+        line-height: 20px;
+        padding-bottom: 0px;
+    }
+    #maketable .secondcol{
+        padding-left: 15px;
+    }
+    #maketable{
+        padding-bottom: 2px;
+    }
+    #maketable .header2{
+        padding-right: 70px;
+    }
+    .manichead{
+        padding-top: 30px;
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+    .manicurist1{
+        padding-top: 70px;
+        margin-left: 10px;
+        font-size: 16px;
+        padding-bottom: 60px;
+    }
+    #manictable1{
+        width: 335px;
+        line-height: 18px;
+        table-layout: fixed;
+    }
+    #manictable1 td{
+        padding-bottom: 4px;
+    }
+    #manictable2{
+        width: 210px;
+    }
+    #manictable2 td{
+        padding-bottom: 0px;
+    }
+    .manicurist2{
+        width: 470px;
+        font-size: 16px;
+        margin-left: 3px;
+        line-height: 18px;
+    }
+    .servphoto4{
+        width: 43%;
+        margin-right: 45px;
+    }
+
+}
+@media(max-width: 450px){
+    .advname{
+        font-size: 18px;
+    }
+    .advtext1{
+        font-size: 15px;
+        width: 130px;
+        padding-left: 3px;
+    }
+    .advtext{
+        font-size: 15px;
+        width: 130px;
+    }
+    .servphoto1{
+        display: block;
+        margin: 0 auto;
+        width: 54%;
+    }
+    .hairmakerall{
+        display: block;
+    }
+    #hairtable{
+        width: 500px;
+        line-height: 20px;
+    }
+    #hairtable .secondcol{
+        padding-left: 10px;
+    }
+    #hairtable .td{
+        padding-bottom: 5px
+    }
+    .hairhead{
+        margin-top: 30px;
+        width: 65%;
+    }
+    #hairtable .header2{
+        padding-right: 135px;
+    }
+    .coloring{
+        padding-right: 130px;
+    }
+    .button1{
+        margin-top: 15px;
+        padding: 10px;
+    }
+    .makeupall{
+        display: flex;
+        flex-direction: column;
+    }
+    .makeup{
+        display: block;
+        margin: 0 auto;
+        order: 2;
+        margin-top: 250px;
+        margin-left: 7px;
+    }
+    .servphoto2 {
+        order: 1;
+        margin-right: 120px;
+        margin-top: 30px;
+        width: 54%;
+        height: 210px;
+        margin-bottom: 40px;
+    }
+    #maketable{
+        width: 500px;
+        line-height: 20px;
+    }
+    .makehead{
+        margin-left: 55px;
+    }
+    #maketable .header2{
+        padding-right: 120px;
+    }
+    #maketable .secondcol{
+        padding-left: 65px;
+    }
+    #maketable td {
+        padding-bottom: 4px;
+    }
+    .button2{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .servphoto3{
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 54%;
+    }
+    .manicuristall1{
+        display: block;
+    }
+    #manictable1{
+        width: 550px;
+        line-height: 20px;
+    }
+    #manictable2 .firstcol{
+        width: 40%;
+    }
+    #manictable1 .secondcol{
+        padding-left: 50px;
+    }
+    .manicurist1{
+        margin-left: 7px;
+        padding-left: 5px;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    #manictable1 td{
+        padding-bottom: 5px;
+    }
+    .header4 {
+        padding-right: 175px;
+        padding-bottom: 1px;
+    }
+    .header4::after {
+        height: 2px;
+        left: 34%;
+    }
+    .button3{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .manicuristall2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .servphoto4 {
+        order: 1;
+        margin: 0 auto;
+        width: 54%;
+        height: 250px;
+        margin-bottom: 40px;
+        margin-right: 93px;
+    }
+    .manicurist2 {
+        order: 2;
+        margin-top: 300px;
+        margin-left: 95px;
+    }
+    #manictable2{
+        width: 370px;
+        line-height: 20px;
+    }
+    #manictable2 .secondcol{
+        padding-left: 47px;
+    }
+    #manictable2 .firstcol{
+        width: 70%;
+        padding-bottom: 5px;
+    }
+    .button4{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .galery{
+        font-size: 26px;
+    }
+    .photo1-2{
+        margin-left: 3px;
+        padding: 3px;
+        padding-bottom: 0px;
+        margin-top: 5px;
+    }
+    .hair{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .make{
+        font-size: 18px;
+        margin-right: 30px;
+    }
+    .img1{
+        width: 90px;
+        height: 190px;
+        padding-right: 1px;
+        margin-right: 0px;
+    }
+    .img2{
+        width: 90px;
+        height: 190px;
+    }
+    .img3{
+        width: 90px;
+        height: 190px;
+        padding-right: 1px;
+    }
+    .img4{
+        width: 90px;
+        height: 190px;
+        margin-left: 0px;
+    }
+    .photo3-4{
+        padding: 3px;
+        padding-bottom: 0px;
+        margin-right: 3px;
+        margin-top: 5px;
+    }
+    .manic{
+        font-size: 18px;
+        margin-left: 18px;
+    }
+    .pediure{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    .img5{
+        width: 90px;
+        height: 190px;
+        padding-right: 1px;
+        margin-right: 0px;
+    }
+    .img6{
+        width: 90px;
+        height: 190px;
+    }
+    .img7{
+        width: 90px;
+        height: 190px;
+        padding-right: 1px;
+    }
+    .img8{
+        width: 90px;
+        height: 190px;
+        margin-left: 0px;
+    }
+    .photo5-6{
+        padding: 3px;
+        margin-left: 3px;
+    }
+    .photo7-8{
+        margin-right: 3px;
+        padding: 3px;
+        padding-bottom: 0px;
+    }
+    .information{
+        font-size: 16px;
+        line-height: 23px;
+        width: 300px; 
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+    .end{
+        display: inline;
+    }
+    .vertical-line{
+        border-left: none;
+        border-top: 1px solid #000; 
+        height: 1px;
+        margin-top: 50px; 
+        width: 90%;
+        margin-left: 15px
+    }
+    .form-container{
+        width: 100%;
+    }
+    form{
+        font-size: 16px;
+        width: 270px;
+        line-height: 23px;
+        margin-left: 0px;
+        margin-top: 50px ;
+    }
+    .form-group input, .form-group textarea{
+        font-size: 16px;
+        margin-bottom: 3px;
+        padding: 7px 0px;
+    }
+    .buttonend{
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 7px;
+        margin-bottom: 50px;
+    }
+    #contact, #contact2{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 400px){
+    .begin{
+        height: 400px;
+    }
+    .links{
+        margin-left: 5px;
+        font-size: 15px;
+        gap: 5px;
+        width: 10px;
+    }
+    .name{
+        font-size: 33px;
+        padding-top: 130px;
+    }
+    .quote{
+        font-size: 20px;
+        width: 160px;
+    }
+    .advname{
+        font-size: 17px;
+    }
+    .advtext1{
+        font-size: 15px;
+        width: 100px;
+        padding-left: 3px;
+    }
+    .advtext{
+        font-size: 15px;
+        width: 100px;
+        padding-left: 0px;
+    }
+    #hairtable{
+        width: 420px;
+        line-height: 20px;
+    }
+    #hairtable .secondcol{
+        padding-left: 0px;
+    }
+    #hairtable .header2{
+        padding-left: 30px;
+    }
+    .coloring{
+        padding-left: 23px
+    }
+    .servphoto1{
+        margin-right: 95px;
+    }
+    .servphoto2{
+        height: 200px;
+        margin-left: 40px;
+        margin-right: 80px;
+        width: 60%;
+    }
+    #maketable{
+        width: 430px;
+    }
+    .makehead{
+        margin-left: 20px;
+    }
+    #maketable .header2{
+        padding-right: 130px;
+    }
+    #manictable1{
+        width: 500px;
+    }
+    #manictable1 .secondcol{
+        padding-left: 30px;
+    }
+    .servphoto3{
+        margin-right: 95px;
+    }
+    .servphoto4{
+        height: 240px;
+        margin-left: 100px;
+        margin-right: 90px;
+    }
+    #manictable2{
+        width: 340px;
+        line-height: 20px;
+    }
+    .manicurist2{
+        margin-left: 140px;
+    }
+    #manictable2 .secondcol{
+        padding-left: 30px;
+    }
+    .photo1-2{
+        padding: 1px;
+    }
+    .img1{
+        width: 80px;
+        height: 170px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .img2{
+        width: 80px;
+        height: 170px;
+    }
+    .img3{
+        width: 80px;
+        height: 170px;
+        padding-right: 0px;
+    }
+    .img4{
+        width: 80px;
+        height: 170px;
+        margin-left: 0px;
+    }
+    .hair{
+       margin-left: 20px; 
+    }
+    .make{
+        margin-right: 20px;
+    }
+    .photo3-4{
+        padding: 1px;
+
+    }
+    .manic{
+        font-size: 18px;
+        margin-left: 10px;
+        text-align: center;
+        width: 150px;
+    }
+    .pediure{
+        font-size: 18px;
+        margin-right: 10px;
+        text-align: center;
+        width: 150px;
+    }
+    .img5{
+        width: 80px;
+        height: 170px;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+    .img6{
+        width: 80px;
+        height: 170px;
+    }
+    .img7{
+        width: 80px;
+        height: 170px;
+        padding-right: 0px;
+    }
+    .img8{
+        width: 80px;
+        height: 170px;
+        margin-left: 0px;
+    }
+    .photo5-6{
+        padding: 1px;
+        margin-left: 3px;
+    }
+    .photo7-8{
+        margin-right: 1px;
+        padding: 3px;
+        padding-bottom: 0px;
+    }
+    .information{
+        margin-left: 20px;
+    }
+    form{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 360px){
+    .links{
+        margin-left: 2px;
+        font-size: 15px;
+        gap: 3px;
+    }
+}
